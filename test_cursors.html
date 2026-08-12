@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cursor Style Test 游標樣式測試</title>
+<style>
+  body {
+    font-family: "Segoe UI", "Microsoft JhengHei", sans-serif;
+    background: #1e1e1e;
+    color: #eee;
+    padding: 24px;
+  }
+  h1 { font-size: 20px; margin-bottom: 4px; }
+  p.hint { color: #999; margin-top: 0; margin-bottom: 24px; }
+  h2 { font-size: 15px; color: #ccc; margin: 32px 0 12px; }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 12px;
+  }
+  .box {
+    background: #2d2d2d;
+    border: 1px solid #444;
+    border-radius: 8px;
+    padding: 20px 12px;
+    text-align: center;
+    font-size: 13px;
+    user-select: none;
+    transition: background 0.15s;
+  }
+  .box:hover {
+    background: #3a3a3a;
+    border-color: #666;
+  }
+  code {
+    display: block;
+    margin-top: 6px;
+    font-size: 11px;
+    color: #888;
+  }
+</style>
+</head>
+<body>
+
+<h1>Cursor Style Test 游標樣式測試</h1>
+<p class="hint">Hover over a box below to preview its cursor style.<br>滑鼠移到下面的方框上，就會套用對應的游標樣式。</p>
+
+<h2>Custom cursor files (.cur / .ani, in this folder) 自訂游標檔</h2>
+<div class="grid">
+  <div class="box" style="cursor: url('pointer.cur'), auto;">pointer<code>pointer.cur</code></div>
+  <div class="box" style="cursor: url('link.cur'), pointer;">link<code>link.cur</code></div>
+  <div class="box" style="cursor: url('text.cur'), text;">text<code>text.cur</code></div>
+  <div class="box" style="cursor: url('move.cur'), move;">move<code>move.cur</code></div>
+  <div class="box" style="cursor: url('help.cur'), help;">help<code>help.cur</code></div>
+  <div class="box" style="cursor: url('cross.cur'), crosshair;">cross<code>cross.cur</code></div>
+  <div class="box" style="cursor: url('unavailiable.cur'), not-allowed;">unavailiable<code>unavailiable.cur</code></div>
+  <div class="box" style="cursor: url('alternate.cur'), auto;">alternate<code>alternate.cur</code></div>
+  <div class="box" style="cursor: url('account.cur'), auto;">account<code>account.cur</code></div>
+  <div class="box" style="cursor: url('place.cur'), auto;">place<code>place.cur</code></div>
+  <div class="box" style="cursor: url('handwriting.cur'), auto;">handwriting<code>handwriting.cur</code></div>
+  <div class="box" style="cursor: url('horz.cur'), ew-resize;">horz<code>horz.cur</code></div>
+  <div class="box" style="cursor: url('vert.cur'), ns-resize;">vert<code>vert.cur</code></div>
+  <div class="box" style="cursor: url('dgn1.cur'), nwse-resize;">dgn1<code>dgn1.cur</code></div>
+  <div class="box" style="cursor: url('dgn2.cur'), nesw-resize;">dgn2<code>dgn2.cur</code></div>
+  <div class="box" style="cursor: url('busy.ani'), wait;">busy<code>busy.ani</code></div>
+  <div class="box" style="cursor: url('work.ani'), progress;">work<code>work.ani</code></div>
+</div>
+
+<h2>Built-in browser cursor keywords (for comparison) 瀏覽器內建游標關鍵字</h2>
+<div class="grid">
+  <div class="box" style="cursor: default;">default</div>
+  <div class="box" style="cursor: pointer;">pointer</div>
+  <div class="box" style="cursor: text;">text</div>
+  <div class="box" style="cursor: move;">move</div>
+  <div class="box" style="cursor: grab;">grab</div>
+  <div class="box" style="cursor: crosshair;">crosshair</div>
+  <div class="box" style="cursor: help;">help</div>
+  <div class="box" style="cursor: wait;">wait</div>
+  <div class="box" style="cursor: progress;">progress</div>
+  <div class="box" style="cursor: not-allowed;">not-allowed</div>
+  <div class="box" style="cursor: zoom-in;">zoom-in</div>
+  <div class="box" style="cursor: ew-resize;">ew-resize</div>
+  <div class="box" style="cursor: ns-resize;">ns-resize</div>
+  <div class="box" style="cursor: nwse-resize;">nwse-resize</div>
+  <div class="box" style="cursor: nesw-resize;">nesw-resize</div>
+</div>
+
+</body>
+</html>
