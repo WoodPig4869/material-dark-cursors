@@ -4,8 +4,7 @@
 
 A dark, Material Design–styled cursor theme for Windows — a high-resolution rework of the original pack by [JepriCreations](https://paypal.me/JeprisCreations), recolored and rebuilt up to 128px with clean, sub-pixel-accurate edges.
 
-![banner](banner.png)
-![preview](preview_dark.png)
+![preview](preview.png)
 
 ## Features
 

@@ -4,8 +4,7 @@
 
 一套深色、Material Design 風格的 Windows 滑鼠游標主題 —— 基於 [JepriCreations](https://paypal.me/JeprisCreations) 原作重新改色、並將所有游標放大重建到 128px、邊緣經過次像素級處理的高解析版本。
 
-![banner](banner.png)
-![preview](preview_dark.png)
+![preview](preview.png)
 
 ## 特色
 
