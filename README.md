@@ -2,16 +2,23 @@
 
 # material-dark-cursors
 
-A dark, Material Design–styled cursor theme for Windows — a high-resolution rework of the original pack by [JepriCreations](https://paypal.me/JeprisCreations), recolored and rebuilt up to 128px with clean, sub-pixel-accurate edges.
+[![License: CC BY 4.0](https://img.shields.io/github/license/WoodPig4869/material-dark-cursors)](LICENSE)
+[![Platform: Windows 11](https://img.shields.io/badge/platform-Windows%2011-0078D6?logo=windows&logoColor=white)](#compatibility)
 
-![preview](preview.png)
+A dark, Material Design–styled **mouse cursor theme/pack for Windows 11** — replaces the default Windows pointer with a full set of custom cursors, rebuilt from the original pack by [JepriCreations](https://paypal.me/JeprisCreations) into high-resolution, HiDPI/4K-ready `.cur`/`.ani` files with clean, sub-pixel-accurate edges.
+
+![Dark Material Design cursor pack preview for Windows 11](preview.png)
 
 ## Features
 
 - Dark navy (`#263238`) cursor fills, consistent across every cursor in the set
-- Multi-resolution `.cur` / `.ani` files (32 / 48 / 64 / 96 / 128 px) with scaled hotspots
+- Multi-resolution `.cur` / `.ani` files (32 / 48 / 64 / 96 / 128 px) with scaled hotspots — sharp on HiDPI/4K displays
 - Sub-pixel edge reconstruction on the pointer cursor for crisp corners at high DPI
 - Ready-to-use Windows cursor scheme (`Install.inf`) — installs with one click
+
+## Compatibility
+
+Windows 11. Uses the standard `.cur`/`.ani` cursor format and a `Control Panel\Cursors` scheme registered via `Install.inf`.
 
 ## Included cursors
 
